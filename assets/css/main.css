@@ -783,7 +783,7 @@ body {
     font-weight: 900;
     line-height: 1;
     z-index: 1;
-    color: #dd322f
+    color: #8AA6A3
 }
 
 .intro--banner button {
@@ -848,7 +848,7 @@ body {
 .intro--options>a {
     max-width: 250px;
     text-decoration: none;
-    color: #dd322f;
+    color: #8AA6A3;
     -webkit-transition: color .2s ease-in-out;
     transition: color .2s ease-in-out
 }
@@ -970,7 +970,7 @@ body {
     margin: 0 0 20px 0;
     font-size: 30px;
     text-align: center;
-    color: #dd322f
+    color: #8AA6A3
 }
 
 .work--lockup {
@@ -1187,13 +1187,13 @@ body {
     font-weight: 900;
     line-height: 1;
     z-index: 1;
-    color: #dd322f
+    color: #8AA6A3
 }
 
 .about--banner a {
     padding: 5px 17px 5px 0;
     text-decoration: none;
-    color: #dd322f;
+    color: #8AA6A3;
     font-weight: 700;
     text-transform: uppercase;
     background-color: transparent
@@ -1207,7 +1207,7 @@ body {
     position: relative;
     left: 5px;
     width: 15px;
-    fill: #dd322f;
+    fill: #8AA6A3;
     -webkit-transition: left .2s ease-in-out;
     transition: left .2s ease-in-out
 }
@@ -1462,7 +1462,7 @@ body {
     margin: 0 0 20px 0;
     font-size: 30px;
     text-align: center;
-    color: #dd322f
+    color: #8AA6A3
 }
 
 .work-request {
@@ -1748,7 +1748,7 @@ body {
     visibility: hidden;
     -webkit-transition: visibility 0s .2s;
     transition: visibility 0s .2s;
-    color: #dd322f
+    color: #8AA6A3
 }
 
 .outer-nav.is-vis {
@@ -2194,4 +2194,20 @@ ul.customupdates>li a:hover {
 
 ul.customupdates>li:hover {
     background: #f6f6f61a;
+}
+
+.intro--banner::after {
+    content: none !important;
+}
+
+a.share-btn.share-btn-branded.share-btn-linkedin {
+    background: #0966C2 !important;
+    color: white !important;
+}
+a.share-btn.share-btn-branded.share-btn-twitter {
+    background: #0073AA !important;
+    color: white !important;
+}
+.work a {
+    pointer-events: none !important;
 }
