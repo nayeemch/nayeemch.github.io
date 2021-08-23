@@ -1803,9 +1803,9 @@ body {
     -webkit-transform: translate(-50%, -25%);
     transform: translate(-50%, -25%);
     width: 110%;
-    height: 15px;
+    height: 10px;
     opacity: 0;
-    background-color: #fdf6e3
+    background-color: #8AA6A3
 }
 
 .outer-nav>li.is-active::before {
