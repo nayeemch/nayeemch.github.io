@@ -1,1 +1,1 @@
-# Portfolio website for https://nayeemparvezchowdhury.github.io/
+# Portfolio website
