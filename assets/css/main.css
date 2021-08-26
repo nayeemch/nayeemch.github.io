@@ -2211,3 +2211,7 @@ a.share-btn.share-btn-branded.share-btn-twitter {
 .work a {
     pointer-events: none !important;
 }
+
+.share-btn-Github{
+    background-color: #24292f !important;
+}
